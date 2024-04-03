@@ -1,0 +1,10 @@
+2024-03-06T08:52:37.069935+00:00 app[web.1]: [06-Mar-24 02:22:37 PM] [WARNING] - MEGA Credentials not provided!
+2024-03-06T08:52:37.189993+00:00 app[web.1]: [2024-03-06 08:52:37 +0000] [44] [INFO] Starting gunicorn 21.2.0
+2024-03-06T08:52:37.190268+00:00 app[web.1]: [2024-03-06 08:52:37 +0000] [44] [INFO] Listening at: http://0.0.0.0:4668 (44)
+2024-03-06T08:52:37.190313+00:00 app[web.1]: [2024-03-06 08:52:37 +0000] [44] [INFO] Using worker: gevent
+2024-03-06T08:52:37.192605+00:00 app[web.1]: [2024-03-06 08:52:37 +0000] [65] [INFO] Booting worker with pid: 65
+2024-03-06T08:52:38.146923+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2024-03-06T08:52:38.165404+00:00 app[web.1]: [2024-03-06 08:52:38 +0000] [44] [INFO] Handling signal: term
+2024-03-06T08:52:38.225147+00:00 heroku[web.1]: Process exited with status 143
+2024-03-06T08:52:38.784333+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=lokyteech-9a9a0fd8a733.herokuapp.com request_id=34dc7969-b5be-40f0-a299-7cb704a503c3 fwd="34.244.110.170" dyno= connect= service= status=503 bytes= protocol=https
+2024-03-06T08:54:06.245997+00:00 app[api]: Scaled to web@0:Standard-1X by user latdet@glowend.nl
